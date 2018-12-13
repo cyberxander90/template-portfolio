@@ -2,13 +2,13 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "@fortawesome/fontawesome-free": "^5.3.1",
     "bootstrap": "^3.3.7",
     "jquery": "^3.3.1"
