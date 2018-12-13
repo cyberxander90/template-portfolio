@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Portfolio</title>
+
+  <!-- Setup viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Reference bootstrap/fontawesome/site styles -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+  <link rel="stylesheet" href="site.css" />
+</head>
+
+<body>
+
+  <!-- Overlay -->
+  <div class="overlay"></div>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <!-- Icon to close the sidebar -->
+    <div class="visible-xs close-sidebar">
+      <span class="fa fa-times"></span>
+    </div>
+
+    <img class="sidebar-img" src="images/avatar.jpg">
+    <p class="text-lead">Portfolio</p>
+    <p class="text-secondary">Template by campus</p>
+
+    <!-- Navigation -->
+    <ul class="navigation">
+      <li class="active">
+        <a href="#"><span class="fa fa-th-large"></span>Portfolio</a>
+      </li>
+      <li>
+        <a href="#"><span class="fas fa-user"></span>About</a>
+      </li>
+      <li>
+        <a href="#"><span class="fa fa-envelope"></span>Contact</a>
+      </li>
+    </ul>
+
+    <!-- Social Icons -->
+    <ul class="social-networks inline-list">
+      <li><span class="fab fa-facebook"></span></li>
+      <li><span class="fab fa-twitter"></span></li>
+      <li><span class="fab fa-instagram"></span></li>
+      <li><span class="fab fa-pinterest-p"></span></li>
+      <li><span class="fab fa-linkedin-in"></span></li>
+    </ul>
+  </div>
+
+  <!-- Main content -->
+  <div class="main container-fluid">
+
+    <!-- Menu Bar -->
+    <div class="row visible-xs menu-bar">
+      <div class="col-xs-12 col-revert">
+        <!-- Icon to open the sidebar -->
+        <div class="open-sidebar">
+          <span class="fa fa-bars"></span>
+        </div>
+
+        <!-- Top-right avatar -->
+        <img src="images/avatar.jpg" class="avatar">
+      </div>
+    </div>
+
+    <!-- Title -->
+    <div class="row">
+      <div class="col-xs-12 title">
+        <h1>My Portfolio</h1>
+      </div>
+    </div>
+
+    <!-- Filter -->
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="filter-container">
+          <span class="filter-title">Filter: </span>
+          <ul class="filter inline-list">
+            <li class="active">ALL</li>
+            <li class=""><span class="fa fa-gem"></span>Design</li>
+            <li class="hidden-xs"><span class="fa fa-image"></span>Photos</li>
+            <li class="hidden-xs"><span class="fa fa-map-pin"></span>Art</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cards container -->
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+          <img class="img-responsive card-img" src="images/mountains.jpg">
+          <div class="card-text">
+            <p class="bold-text">Mountains</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias nihil dolorum deserunt aperiam rerum delectus quaerat natus fugit neque cumque.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+          <img class="img-responsive card-img" src="images/nature.jpg">
+          <div class="card-text">
+            <p class="bold-text">Nature</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, earum!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="visible-sm clearfix"></div>
+
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+            <img class="img-responsive card-img" src="images/lights.jpg">
+            <div class="card-text">
+              <p class="bold-text">Lights</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed!</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="visible-md visible-lg clearfix"></div>
+
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+            <img class="img-responsive card-img" src="images/p1.jpg">
+            <div class="card-text">
+              <p class="bold-text">P1</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam dolorum architecto minus!</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="visible-sm clearfix"></div>
+
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+            <img class="img-responsive card-img" src="images/p2.jpg">
+            <div class="card-text">
+              <p class="bold-text">P2</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, magni?</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+            <img class="img-responsive card-img" src="images/p3.jpg">
+            <div class="card-text">
+              <p class="bold-text">P3</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, tempora qui?</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="visible-sm clearfix"></div>
+      <div class="visible-md visible-lg clearfix"></div>
+    </div>
+
+    <!-- Pagination -->
+    <div class="cards-pagination">
+      <ul class="inline-list">
+        <li><span class="fas fa-angle-double-left"></span></li>
+        <li class="active"><span>1</span></li>
+        <li><span>2</span></li>
+        <li><span>3</span></li>
+        <li><span>4</span></li>
+        <li><span class="fas fa-angle-double-right"></span></li>
+      </ul>
+    </div>
+
+    <!-- Avatars -->
+    <div class="row avatars-collection">
+      <div class="col-xs-12 col-sm-6 col-md">
+        <img class="img-responsive" src="images/avatar.jpg">
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <img class="img-responsive" src="images/avatar2.jpg">
+      </div>
+    </div>
+
+    <!-- About me -->
+    <div class="row">
+      <div class="col-xs-12">
+        <h3>About Me</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit aspernatur excepturi velit magni
+          recusandae, soluta nobis unde incidunt eius molestiae.</p>
+      </div>
+    </div>
+
+    <!-- Technical skills -->
+    <div class="row">
+      <div class="col-xs-12">
+        <h4>Technical Skills</h4>
+
+        <div class="skill">
+          <p>Photography</p>
+          <div class="progress-control progress-control-1">
+            <div class="progress-control-content"></div>
+            <span class="progress-control-value">95%</span>
+          </div>
+        </div>
+
+        <div class="skill">
+          <p>Web Design</p>
+          <div class="progress-control progress-control-2">
+            <div class="progress-control-content"></div>
+            <span class="progress-control-value">80%</span>
+          </div>
+        </div>
+
+        <div class="skill">
+          <p>Photoshop</p>
+          <div class="progress-control progress-control-3">
+            <div class="progress-control-content"></div>
+            <span class="progress-control-value">60%</span>
+          </div>
+        </div>
+
+        <button class="btn-resume"><span class="fa fa-download"></span>Download Resume</button>
+      </div>
+    </div>
+
+    <!-- Plans -->
+    <div class="row">
+      <div class="col-xs-12">
+        <h3>How much i charge</h3>
+      </div>
+
+      <div class="col-xs-12 col-sm-4">
+        <ul class="plan">
+          <li class="header">Basic</li>
+          <li>Web Design</li>
+          <li>Photography</li>
+          <li>1 Gb</li>
+          <li>Mail Support</li>
+          <li class="price">
+              <p class="price-value">$ 10</span>
+                <p>per month</span>
+          </li>
+          <li class="footer">
+            <button>Sign Up</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-xs-12 col-sm-4">
+        <ul class="plan">
+          <li class="header bg-green">Basic</li>
+          <li>Web Design</li>
+          <li>Photography</li>
+          <li>1 Gb</li>
+          <li>Mail Support</li>
+          <li class="price">
+            <p class="price-value">$ 10</span>
+            <p>per month</span>
+          </li>
+          <li class="footer">
+            <button class="bg-green">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-xs-12 col-sm-4">
+        <ul class="plan">
+          <li class="header">Basic</li>
+          <li>Web Design</li>
+          <li>Photography</li>
+          <li>1 Gb</li>
+          <li>Mail Support</li>
+          <li class="price">
+              <p class="price-value">$ 10</span>
+                <p>per month</span>
+          </li>
+          <li class="footer">
+            <button>Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="row contact">
+      <div class="col-xs-12">
+        <h3>Contact Me</h3>
+      </div>
+
+      <!-- Contact info -->
+      <div class="col-xs-12">
+        <div class="row contact-item-container">
+          <div class="col-xs-12 col-sm-4 contact-item">
+            <span class="fa fa-envelope"></span>
+            <span>email@email.com</span>
+          </div>
+          <div class="col-xs-12 col-sm-4 contact-item bg-green">
+            <span class="fa fa-map-marker-alt"></span>
+            <span>email@email.com</span>
+          </div>
+          <div class="col-xs-12 col-sm-4 contact-item">
+            <span class="fa fa-phone"></span>
+            <span>email@email.com</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Form to send message -->
+      <div class="col-xs-12">
+        <form action="">
+          <div class="form-input">
+            <label>Name</label>
+            <input type="text">
+          </div>
+          <div class="form-input">
+            <label>Email</label>
+            <input type="text">
+          </div>
+          <div class="form-input">
+            <label>Message</label>
+            <input type="text">
+          </div>
+          <button type="submit"><span class="fa fa-paper-plane"></span> Send Message</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="row footer">
+
+      <!-- Footer text -->
+      <div class="col-xs-12 col-sm-4">
+        <h3>Footer</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, nobis.</p>
+      </div>
+
+      <!-- Blog Posts -->
+      <div class="col-xs-12 col-sm-4">
+        <h3>Blog Posts</h3>
+        <div class="blog-post">
+          <img src="images/gondol.jpg">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A velit incidunt sapiente</p>
+        </div>
+        <div class="blog-post">
+          <img src="images/workshop.jpg">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores, excepturi?</p>
+        </div>
+      </div>
+
+      <!-- Popular Tags -->
+      <div class="col-xs-12 col-sm-4">
+        <h3>Popular Tags</h3>
+        <ul class="inline-list">
+          <li class="tag active">Travel</li>
+          <li class="tag">New York</li>
+          <li class="tag">London</li>
+          <li class="tag">IKEA</li>
+          <li class="tag">Norway</li>
+          <li class="tag">Ideas</li>
+          <li class="tag">Baby</li>
+          <li class="tag">Family</li>
+          <li class="tag">News</li>
+          <li class="tag">Sports</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Foot page -->
+    <div class="foot-page">
+      <p>Powered By css</p>
+    </div>
+
+  </div>
+
+  <!-- Reference jquery/bootstrap/site scripts -->
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="site.js"></script>
+</body>
+
+</html>
